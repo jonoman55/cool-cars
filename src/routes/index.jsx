@@ -7,6 +7,8 @@ import {
 import HomePage from '../pages/HomePage';
 import DesignPage from '../pages/DesignPage';
 import SpecsPage from '../pages/SpecsPage';
+import ProtoTypePage from '../pages/ProtoTypePage';
+import LookAndFeelPage from '../pages/LookAndFeelPage';
 import NotFoundPage from '../pages/NotFoundPage';
 import { Layout } from '../components';
 
@@ -21,6 +23,8 @@ const Routes = () => (
           <Route index element={<HomePage />} />
           <Route path="design" element={<DesignPage />} />
           <Route path="specs" element={<SpecsPage />} />
+          <Route path="proto" element={<ProtoTypePage />} />
+          <Route path="lookfeel" element={<LookAndFeelPage />} />
         </Route>
         <Route path="*" element={<NotFoundPage />} />
       </Switch>

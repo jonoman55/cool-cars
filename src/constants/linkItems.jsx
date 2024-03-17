@@ -1,11 +1,10 @@
 /* eslint-disable no-unused-vars */
 import {
   Home as HomeIcon,
-  AccountCircle as ProfileIcon,
+  Visibility as LookFeelIcon,
   DirectionsCar as DesignIcon,
-  Handyman as SpecsIcon,
-  Login as LoginIcon,
-  Logout as LogoutIcon,
+  Settings as SpecsIcon,
+  DesignServices as PrototypeIcon,
 } from '@mui/icons-material';
 
 /**
@@ -33,31 +32,18 @@ export const linkItems = [
     to: '/specs',
     icon: <SpecsIcon />,
   },
-  // {
-  //   id: 4,
-  //   name: 'Profile',
-  //   description: 'Profile Page',
-  //   to: '/profile',
-  //   icon: <ProfileIcon />,
-  // },
-];
-
-/**
- * App Authentication Link Items
- */
-export const authItems = [
   {
     id: 3,
-    name: 'login',
-    description: 'Login',
-    to: '/login',
-    icon: <LoginIcon />,
+    name: 'Prototype',
+    description: 'Prototype Page',
+    to: '/proto',
+    icon: <PrototypeIcon />,
   },
   {
     id: 4,
-    name: 'logout',
-    description: 'Logout',
-    to: '/login',
-    icon: <LogoutIcon />,
+    name: 'Look & Feel',
+    description: 'Look And Feel Page',
+    to: '/lookfeel',
+    icon: <LookFeelIcon />,
   },
 ];

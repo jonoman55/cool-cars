@@ -11,7 +11,10 @@ import {
   Menu,
   MenuItem,
 } from '@mui/material/';
-import { Adb as AdbIcon, Menu as MenuIcon } from '@mui/icons-material';
+import { 
+  Menu as MenuIcon, 
+  DirectionsCar as CarIcon 
+} from '@mui/icons-material';
 
 import ThemeSwitch from '../controls/ThemeSwitch';
 import { ToolTip } from '../controls/ToolTip';
@@ -38,7 +41,7 @@ const Header = () => {
       <Container maxWidth="xl">
         <Toolbar disableGutters id="back-to-top-anchor">
           {/* Logo */}
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <CarIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -53,7 +56,7 @@ const Header = () => {
               cursor: 'default',
             }}
           >
-            LOGO
+            Vincere
           </Typography>
 
           {/* Menu Icon BUtton */}
@@ -106,7 +109,7 @@ const Header = () => {
           </Box>
 
           {/* Responsive Logo */}
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          <CarIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -122,7 +125,7 @@ const Header = () => {
               cursor: 'default',
             }}
           >
-            LOGO
+            Vincere
           </Typography>
 
           {/* Navbar */}
