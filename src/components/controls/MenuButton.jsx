@@ -1,5 +1,5 @@
 import { IconButton } from '@mui/material';
-import { Menu as MenuIcon } from '@mui/icons-material';
+import MenuIcon from '@mui/icons-material/Menu';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { appActions } from '../../reducers/appSlice';

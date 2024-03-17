@@ -92,7 +92,7 @@ const typography = {
   fontFamily: ['Roboto', 'sans-serif'].join(','),
 };
 
-export const GlobalStyles = (mode) => (
+export const GlobalStyles = ({ mode }) => (
   <MuiGlobalStyles
     styles={mode === 'light' ? scrollBarsLight : scrollBarsDark}
   />

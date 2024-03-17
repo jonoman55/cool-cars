@@ -1,8 +1,6 @@
-import {
-  LightMode as LightModeIcon,
-  DarkMode as DarkModeIcon,
-  SettingsBrightness as SystemModeIcon,
-} from '@mui/icons-material';
+import LightModeIcon from '@mui/icons-material/LightMode';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import SystemModeIcon from '@mui/icons-material/SettingsBrightness';
 
 /**
  * Theme Mode Items

@@ -10,11 +10,9 @@ import {
   Typography,
   Menu,
   MenuItem,
-} from '@mui/material/';
-import { 
-  Menu as MenuIcon, 
-  DirectionsCar as CarIcon 
-} from '@mui/icons-material';
+} from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
+import CarIcon  from '@mui/icons-material/DirectionsCar'
 
 import ThemeSwitch from '../controls/ThemeSwitch';
 import { ToolTip } from '../controls/ToolTip';

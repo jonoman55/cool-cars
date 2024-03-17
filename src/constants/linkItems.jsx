@@ -1,11 +1,12 @@
+// NOTE: More icons can be found at the link below
+// DOCS: https://mui.com/material-ui/material-icons/
+
 /* eslint-disable no-unused-vars */
-import {
-  Home as HomeIcon,
-  Visibility as LookFeelIcon,
-  DirectionsCar as DesignIcon,
-  Settings as SpecsIcon,
-  DesignServices as PrototypeIcon,
-} from '@mui/icons-material';
+import HomeIcon from '@mui/icons-material/Home';
+import LookFeelIcon from '@mui/icons-material/Visibility';
+import DesignIcon from '@mui/icons-material/DirectionsCar';
+import SpecsIcon from '@mui/icons-material/Settings';
+import PrototypeIcon from '@mui/icons-material/DesignServices';
 
 /**
  * App Navigation Link Items

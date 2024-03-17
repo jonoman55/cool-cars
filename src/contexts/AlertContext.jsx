@@ -3,7 +3,7 @@
 
 import { createRef, useCallback } from 'react';
 import { Slide, IconButton } from '@mui/material';
-import { Close as CloseIcon } from '@mui/icons-material';
+import CloseIcon from '@mui/icons-material/Close';
 import { SnackbarProvider as NotistackProvider } from 'notistack';
 
 /**

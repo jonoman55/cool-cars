@@ -8,7 +8,7 @@ import {
   Paper,
   Typography,
 } from '@mui/material';
-import { SentimentDissatisfied } from '@mui/icons-material';
+import NotFoundIcon from '@mui/icons-material/SentimentDissatisfied';
 
 /**
  * Not Found
@@ -29,7 +29,7 @@ const NotFound = () => {
                 alignItems: 'center',
               }}
             >
-              <SentimentDissatisfied sx={{ height: 48, width: 48 }} />
+              <NotFoundIcon sx={{ height: 48, width: 48 }} />
               <Typography
                 variant="body1"
                 pagargraph
